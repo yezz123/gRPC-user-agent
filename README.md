@@ -24,8 +24,6 @@ cargo run --bin client -- "<user_agent>"
 
 Replace `<user_agent>` with the user agent string you want to analyze.
 
-**Note:** You can check `data/user_agents.txt` for some example user agent strings.
-
 The client will send the user agent string to the server and print the decision to the console.
 
 ### Testing
