@@ -74,7 +74,6 @@ mod tests {
     use crate::user_agent_analyzer::user_agent_analyzer_server::UserAgentAnalyzer;
     use crate::user_agent_analyzer::UserAgentRequest;
     use crate::MyUserAgentAnalyzer;
-    use reqwest;
     use tonic::Request;
 
     #[tokio::test]
