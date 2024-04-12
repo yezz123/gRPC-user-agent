@@ -67,7 +67,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: install protobuf compiler
         run: "sudo apt-get update ; sudo apt-get install protobuf-compiler -qq"
-      - uses: pre-commit/action@v3.0.0
+      - uses: pre-commit/action@v3.0.1
         with:
           extra_args: --all-files --verbose
 
