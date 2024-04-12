@@ -1,0 +1,14 @@
+// user_agent.proto
+syntax = "proto3";
+
+service UserAgentAnalyzer {
+    rpc AnalyzeUserAgent (UserAgentRequest) returns (UserAgentResponse);
+}
+
+message UserAgentRequest {
+    string user_agent = 1;
+}
+
+message UserAgentResponse {
+    string decision = 1;
+}
